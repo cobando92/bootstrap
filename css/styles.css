@@ -1,0 +1,349 @@
+/********* TAGS *******/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;
+  color: white;
+}
+
+
+/****** CLASSES ******/
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif; font-size: 2rem; line-height: 1.5; font-weight: 400;
+}
+
+.btn-custcss{
+  font-family: 'Montserrat', sans-serif; font-weight: 400;
+  margin: 2rem 1rem 0 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sb-custcss{
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgba(255,255,255,.55);
+  color: rgba(255,255,255,.55);
+  float: right;
+  font-size: 17px;
+}
+
+.sb-form{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 5%;
+}
+
+::placeholder {
+  color: rgba(255,255,255,.35);
+  font-size: 1rem;
+}
+
+.btn-outline-success:hover{
+  background-color: rgba(255,255,255,.55);
+  color: #ff4c68;
+  border-color: white;
+}
+
+.btn-custcss:hover{
+  background-color: rgba(255,255,255,.55);
+  color: #ff4c68;
+  border-color: white;
+}
+
+.il_custcss{
+  padding:0px;
+  /*margin-right: 3%;*/
+}
+
+.image-main{
+  width: 20rem;
+  transform: rotate(25deg);
+  position:absolute;
+  /* left: 7.5%; */
+}
+
+/* .imagebox{
+  height: 350px;
+} */
+
+.li_span {
+  display: inline-block;
+  width: 50px;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.header_custcss{
+  padding: 1rem 15% 7%;
+}
+
+.navbarli_custcss{
+  padding-top: 1.5rem;
+}
+
+/* .cropped {
+  overflow:hidden;
+} */
+
+/*.cropped img {
+  transform: rotate(20deg);
+  margin: 0;
+  object-fit: fill;
+
+}*/
+
+.features-title{
+  color: #212529;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.css-title-box{
+  padding: 0 3rem;
+  margin: 5% auto;
+}
+
+.css-title-icon{
+  color: #ef8172;
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+.css-title-icon:hover{
+  color: #ff4c68;
+}
+
+
+.title{
+  background-color: #ff4c68;
+  /* height: 600px; */
+}
+
+
+/******** IDs *********/
+
+
+
+#navbarSupportedContent{
+  font-family: 'Ubuntu', sans-serif; line-height: 1.5; font-weight: 300;
+  margin-right: 5%;
+}
+
+#features{
+  padding: 5% 15%;
+  margin: 0 0;
+  background-color: white;
+  color: #8f8f8f;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; line-height: 1.5; font-weight: 400; font-size: 1rem;
+  position: relative;
+}
+
+/****** Testimonials ********/
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/**** Press section ****/
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/******* Pricing *******/
+
+#pricing{
+  text-align: center;
+  padding: 5rem 15%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.plan{
+  font-weight: 700;
+}
+
+
+
+/*Cta y Footer */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 4% 17% 7%;
+}
+
+#footer{
+
+}
+
+.cta-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social-media{
+  text-align: center;
+  padding: 70px 0 0;
+}
+
+.social-icon{
+  margin: 0 10px;
+}
+
+.copyright{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: gray;
+  margin: 10px 0 70px
+
+}
+
+
+
+/* Media */
+
+@media (max-width: 1028px){
+  .image-main{
+    position:static;
+    transform: rotate(0);
+    margin: 35px auto 0;
+
+  }
+
+  .cropped{
+    text-align: center;
+
+  }
+
+  h1{
+    font-size: 3rem;
+
+  }
+
+  .testimonial-text{
+    font-size: 2.3rem;
+  }
+
+  .cta-text{
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .btn-custcss{
+    width: 100%;
+  }
+  .cta-text{
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card_custcss{
+  margin: 1.5rem;
+  border-style: solid;
+} */
